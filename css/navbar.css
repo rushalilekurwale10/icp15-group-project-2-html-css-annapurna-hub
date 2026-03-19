@@ -1,0 +1,31 @@
+/* Navbar Container */
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+
+/* Logo */
+.main-logo-icon{
+    height: 170px;
+}
+
+/* Menu */
+.nav-menu{
+    display: flex;
+    gap: 40px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* Links */
+.menu{
+    text-decoration: none;
+   color: rgb(233, 162, 40); 
+    transition: 0.3s;
+}
+
+.menu:hover{
+     color: rgb(79, 18, 19);
+}
