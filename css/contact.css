@@ -3,6 +3,32 @@
     height: 100px;
     width: 100%;
 }
+.main-head-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-heading-info{
+   font-size: 30px;
+   font-weight: 600;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main-heading-info-para{
+    opacity: 0.9;
+    font-size: 16px;
+
+}
+.facility-section{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 500px;
+}
+.facility-section-item{
+    font-size: 15px;
+    font-weight: 600;
+
+}
 .message-heading{
     display: block;
     text-align: center;
