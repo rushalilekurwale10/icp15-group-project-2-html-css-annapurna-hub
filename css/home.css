@@ -79,7 +79,7 @@ body{
 .card{
     flex: 1;              
     min-width: 0;         
-    height: 340px;
+    height: 360px;
     background-color: white;
     padding: 15px;
     border-radius: 10px;
@@ -102,7 +102,7 @@ body{
 /* Card image - equal height */
 .card-img{
     width: 100%;
-    height: 150px;
+    height: 200px;
     object-fit: cover;
     border-radius: 8px;
 }
@@ -118,26 +118,34 @@ body{
     margin: 0;
     font-size: 14px;
     color: #555;
+   
 }
 
 /* Button */
 .btn{
-    display: block;
-    margin-top: 10px;
-    padding: 8px 15px;
-    background-color: #493628;
+    background: rgb(113, 18, 18);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 20px;
     color: white;
-    text-decoration: none;
-    border-radius: 20px;
+
+    margin: 10px auto;   
     transition: 0.3s;
-    font-size: 14px;
+
 }
 
 .btn:hover{
-    background-color: darkorange;
+    background: #4c531c;
 }
 
-/* Tagline (optional, kept for reference) */
+
+/* Tagline  */
 .tagline-container{
     margin-left: 60px;
     margin-top: 10px;   
