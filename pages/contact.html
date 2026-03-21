@@ -124,4 +124,92 @@
         </div>
       </div>
       <hr />
+ 
+        <!-- Place order -->
+       <div>
+        <span class="message-heading">Place Order</span>
+            <div class="order-sub-container">
+            <div>
+        <form>
+         <label for="name" class="label-order">Full Name</label><br />
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter your name"
+              class="enter-order"
+              required
+            /><br />
+            <label for="email" class="label-order">Email Address</label
+            ><br />
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter your email"
+              class="enter-order"
+              required
+            /><br />
+            <label for="phone" class="label-order">Phone Number</label><br />
+            <input
+              type="text"
+              id="phone"
+              placeholder="Enter your phone number"
+              class="enter-order" required/><br/>
+            <label for="customer-address" class="label-order">Shipping Address</label><br />
+            <input
+              type="text"
+              id="customer-address"
+              placeholder="Enter your shipping address"
+              class="enter-order" required/><br/>
+               <label for="product-date" class="label-order">Ordered date</label><br />
+            <input
+              type="date"
+              id="product-date"
+              placeholder="Enter booking date"
+              class="enter-order" required/><br/>
+               <label for="product-number" class="label-order">Numbers of product Ordered</label><br />
+            <input
+              type="number"
+              id="product-number"
+              placeholder="Enter no of products"
+              class="enter-order" required/><br/>
+              <label for="branch" class="label-order">Select Branch</label>
+             <select id="branch" required class="enter-order" style="display: block;" >
+              <option></option>
+              <option>Nashik</option>
+              <option>Nagpur</option>
+              <option>Mumbai</option>
+              <option>Hingoli</option>
+              <option>Akola</option>
+             </select> <br/>
+              <label for="delivery" class="label-order">Delivery Type</label>
+             <select id="delivery" required class="enter-order" style="display: block;" >
+              <option></option>
+              <option>Standard Delivery(3-5 days)</option>
+              <option>Express Delivery(1-2 days)</option>
+              <option>Pre-book Delivery(1 month - concession)</option>
+             </select> <br/>
+             <label for="delivery" class="label-order">Payment Type</label>
+             <select id="delivery" required class="enter-order" style="display: block;" >
+              <option></option>
+              <option>UPI</option>
+              <option>Credit card</option>
+              <option>Net-banking</option>
+              <option>Cash on delivery</option>
+             </select><br/>
+              <label for="userthought" class="label-order">Special Instructions</label><br />
+            <textarea
+              id="userthought"
+              class="enter-order"
+              placeholder="Write your instructions here......." 
+            ></textarea
+            ><br />
+            <input type="checkbox"  required checked/><span class="label-order">I accept all terms and conditions.</span><br/>
+
+             
+
+
+
+
+        </form>
+            </div>
       

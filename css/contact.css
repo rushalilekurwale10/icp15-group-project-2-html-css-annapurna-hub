@@ -96,3 +96,51 @@ body{
 .location-no{
     margin-bottom: 10px;
 }
+.sub-location-section-content{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.sub-location-card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.sub-location-section-city-content{
+    display: flex;
+    flex-direction: column;
+    border:5px solid #AB886D;
+    width: 230px;
+    height: 250px;
+    border-radius: 10px;
+    background-color:#E4E0E1 ;
+    cursor: pointer;
+    box-shadow: -5px 5px 2px 0px gray ;
+    transition: 0.3s;
+}
+.sub-location-section-city-content:hover{
+    transform: translatey(-5px);
+}
+.sub-location-section-content-info{
+    margin:10px
+}
+.number-contact{
+    text-decoration: none;
+    color:black;
+    margin-left: 5px;
+}
+.order-sub-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 180px;
+    width: 1200px;
+    border: 2px solid #493628;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
