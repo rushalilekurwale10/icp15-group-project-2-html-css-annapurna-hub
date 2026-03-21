@@ -36,6 +36,10 @@ body{
     width: 100%;
     margin-top: 10px;
 }
+.btn-head-three{
+    text-decoration: none;
+    color: black;
+}
 .facility-section-item{
     font-weight: 600;
     display: flex;
@@ -136,10 +140,9 @@ body{
 }
 .order-sub-container{
     display: flex;
-    flex-direction: row;
-    margin-left: 180px;
-    width: 1200px;
-    border: 2px solid #493628;
+    flex-direction: column;
+    margin-left: 500px;
+    width: 550px;
     margin-top: 30px;
     padding: 10px;
     border-radius: 10px;
@@ -161,12 +164,14 @@ body{
     font-size: 14px;
     padding-left: 5px;
 }
-.product-item-form-container{
-    margin-left: 60px;
-    background-color: rgb(223, 222, 221);
-    padding: 10px;
-    box-shadow: 2px 2px 2px 2px gray;
+.enter-gender{
+   margin-top: 10px;
     
+}
+.category{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
 }
 .product-head-info{
     font-size: 30px;
@@ -181,6 +186,9 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     opacity: 0.8;
 }
+.product-item-form-container{
+    margin:20px 0px;
+}
 .items-sequence{
     display: flex;
     flex-direction: column;
@@ -191,8 +199,7 @@ body{
     margin-left: 2px;
 }
 .order-formbtn{
-    
-    width: 800px;
+    width: 450px;
     border-radius: 20px;
     font-size: 20px;
     padding: 10px;
@@ -200,8 +207,8 @@ body{
     color: white;
     cursor: pointer;
     transition: 0.2s;
-    display: block;
-    margin: 20px auto;
+    margin:10px 0px 0px  30px;
+    
 }
 .order-formbtn:hover{
     box-shadow: 5px 5px 5px 0 gray;
