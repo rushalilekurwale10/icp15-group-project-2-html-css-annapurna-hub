@@ -192,7 +192,7 @@
   font-size: 0.85rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: #c0392b;
+  color:  rgb(113, 18, 18);
   font-weight: 600;
 }
 
@@ -230,7 +230,7 @@
 
 .hero-btn {
   display: inline-block;
-  background: #c0392b;
+  background: rgb(113, 18, 18);
   color: #fff;
   padding: 14px 32px;
   border-radius: 50px;
@@ -261,6 +261,7 @@
 
   .hero-img {
     height: 280px;
+    
   }
 }
 
