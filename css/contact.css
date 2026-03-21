@@ -29,3 +29,46 @@ body{
     font-size: 16px;
 
 }
+.facility-section{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 100%;
+    margin-top: 10px;
+}
+.facility-section-item{
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5px 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 0px gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    transition: 0.3s;
+}
+.facility-section-item:hover{
+    background-color: #AB886D;
+    color:white;
+    transform: translateX(5px);
+}
+.title-heading-container{
+    margin-top: 70px;
+}
+.title-heading{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title-heading-sub{
+    display: block;
+    text-align: center;
+    font-size:16px;
+    opacity: 0.8;
+}
