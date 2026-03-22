@@ -49,6 +49,11 @@ header {
     object-fit: cover;
     display: block;
 }
+/* Stars */
+.stars{
+    color: gold;
+    font-size: 18px;
+}
 /* Hover */
 .review-card:hover {
     transform: translateY(-6px);
