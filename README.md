@@ -2,6 +2,7 @@
 🏠 Annapurna Hub
 
 Live Website: https://your-website-link.com
+              https://icp15-group-project-2-html-css-anna.vercel.app/
 
 ---
 
@@ -65,39 +66,9 @@ project/
 
 ## 👩‍💻 Contributors
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://github.com/shravanisherkar31.png" width="100px;" style="border-radius:50%;"/><br>
-      <sub><b>Shravani Sherkar</b></sub><br>
-      <a href="https://github.com/shravanisherkar31">@shravanisherkar31</a>
-    </td>
-
-    <td align="center">
-      <img src="https://github.com/sushmitabhelkar24.png" width="100px;" style="border-radius:50%;"/><br>
-      <sub><b>Sushmita Bhelkar</b></sub><br>
-      <a href="https://github.com/sushmitabhelkar24">@sushmitabhelkar24</a>
-    </td>
-
-    <td align="center">
-      <img src="https://github.com/anjalimhase24.png" width="100px;" style="border-radius:50%;"/><br>
-      <sub><b>Anjali Mhase</b></sub><br>
-      <a href="https://github.com/anjalimhase24">@anjalimhase24</a>
-    </td>
-
-    <td align="center">
-      <img src="https://github.com/rushalilekurwale10.png" width="100px;" style="border-radius:50%;"/><br>
-      <sub><b>Rushali Lekurwale</b></sub><br>
-      <a href="https://github.com/rushalilekurwale10">@rushalilekurwale10</a>
-    </td>
-
-    <td align="center">
-      <img src="https://github.com/PratikshaShinde21.png" width="100px;" style="border-radius:50%;"/><br>
-      <sub><b>Pratiksha Shinde</b></sub><br>
-      <a href="https://github.com/PratikshaShinde21">@PratikshaShinde21</a>
-    </td>
-  </tr>
-</table>
+<a href="https://github.com/shravanisherkar31/icp15-group-project-2-html-css-annapurna-hub/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=shravanisherkar31/icp15-group-project-2-html-css-annapurna-hub" />
+</a>
 
 ---
 
