@@ -254,224 +254,184 @@
     border-radius: 5px;
     font-size: 14px;
     font-weight: 500;
-}.page-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 80vh;        
-    background-color:rgb(235, 224, 224);
-    margin-top: 70px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+
+.page-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 0px;
+     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 
 .container {
-    width: 80%;
-    max-width: 1100px;
-    height: 100%;    
-    background: rgb(211, 167, 167); 
-    border-radius: 18px;
-    display: flex;
-    align-items: stretch; 
-    overflow: hidden;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
-     margin-top: 80px;
-     margin-bottom: 30px;
-}
-.container:hover{
-    transform: translateY(-6px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
+  width: 90%;
+  max-width: 1100px;
+  height: 500px;
+  display: flex;
+  border-radius: 20px;
+  overflow: hidden; /* IMPORTANT for image fit */
+  background: #fff;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  
 }
 
+/* LEFT SIDE */
 .login-box {
-    width: 50%;
-    background: rgb(219, 194, 194); 
-    padding: 50px;
+  width: 50%;
+  padding: 40px;
 }
 
-.right-side img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; 
-    display: block;
+.hading {
+  font-size: 28px;
+  margin-bottom: 10px;
 }
 
-.login-box h2 {
-    font-size: 28px;
-    margin-bottom: 10px;
-    font-weight: 700;
-}
-
-.hading{
-    text-align: center;
-}
 .sub-text {
-    color: #555;
+  font-size: 14px;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  font-size: 14px;
     font-size: 14px;
+    color: gray;
     margin-bottom: 25px;
+
 }
 
 label {
-    font-size: 14px;
-    margin-bottom: 5px;
-    display: block;
-    font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
 }
 
-input {
-    width: 100%;
-    padding: 12px;
-    border-radius: 7px;
-    border: 1px solid #ddd;
-    margin-bottom: 15px;
+/* INPUT BOX SMALL SIZE */
+.input-box input {
+  width: 100%;
+  height: 38px;   /* smaller height */
+  border-radius: 10px;
+  border: none;
+  margin-top: 5px;
+  padding: 8px;
+  border: none;
+  outline: none;
+  display: flex;
+    align-items: center;
+    background: #efe8e8;
+    border: 1px solid #eee;
 }
 
-.password-field {
-    position: relative;
+/* BUTTON */
+.button {
+  margin-top: 15px;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 20px;
+  background: #7b0f0f;
+  color: white;
+  cursor: pointer;
 }
 
+/* LINKS */
 .forgot {
-    font-size: 13px;
-    color:#7a7a00;
-    text-decoration: none;
+  display: block;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #7b0f0f;
+  text-decoration: none;
 }
 
-button {
-
-    width: 30%;
-    padding: 10px;
-    background: rgb(113, 18, 18);
-    color: white;
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
-    margin-bottom: 10px;
-    margin-left: 60px;
-}
-
-button:hover {
-    background: #4c531c;
-}
-
-.signup{
-    font-size: 14px;  
+.signup {
+  margin-top: 15px;
+  font-size: 14px;
+  text-decoration: none;
+  text-decoration: none;
+  color: inherit; /* same color rahil */
 }
 
 .signup a {
-    color: #7a7a00;
-    text-decoration: none;
+  text-decoration: none !important;
+  color: #7b0f0f;
 }
 
-
-.btn {
-    display: block;
-    width: 160px;
-    margin: 25px auto;
-    text-align: center;
-    padding: 10px;
-    background: black;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 6px;
-    font-size: 16px;
+a {
+  text-decoration: none;
 }
- .right-side {
-    height:auto;
-    width:600px;
-}
-   
 
+.right-side {
+  width: 50%;
+  height: 100%;
+}
 
 .right-side img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* MAIN FIX */
+  display: block;
+}
+
+/* MOBILE VIEW */
+@media (max-width: 768px) {
+
+  .container {
+    flex-direction: column;
+    height: auto;
+    margin-top: 250px;
+  }
+
+  .login-box {
+    width: 100%;
+    padding: 25px;
+  }
+
+  .right-side {
+    width: 100%;
+    height: 250px; /* image height mobile sathi */
+  }
+
+  .right-side img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    display: block;
+  }
+
+  .hading {
+    font-size: 22px;
+  }
+
+  .sub-text {
+    font-size: 13px;
+  }
+
+  .input-box input {
+    height: 35px; /* thoda ajun small */
+  }
+
+  .button {
+    width: 100%; /* full width button mobile madhe */
+    text-align: center;
+  }
+
+  .forgot {
+    font-size: 11px;
+  }
+
+  .signup {
+    font-size: 13px;
+  }
 }
-
-.btn:hover {
-    opacity: 0.8;
-}
-
-/* Default Desktop Layout */
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-}
-
-/* Right image */
-.right-side img {
-    width: 400px;
-    max-width: 100%;
-}
-
-/* Login box */
-.login-box {
-    width: 400px;
-}
-
-/* 📱 Mobile View */
-@media (max-width: 768px) {
-
-    .container {
-        flex-direction: column; /* side by side → column */
-        padding: 20px;
-    }
-
-    .login-box {
-        width: 100%;
-        margin: 0px;
-    }
-
-    .right-side {
-        width: 100%;
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .right-side img {
-        width: 90%;
-        height: auto;
-        border-radius: 10px;
-    }
-
-    .hading {
-        font-size: 20px;
-        text-align: center;
-    }
-
-    .sub-text {
-        font-size: 14px;
-        text-align: center;
-    }
-
-    input {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 10px;
-    }
-
-    .button {
-        width: 100%;
-        align-items: center;
-        margin: 0px;
-        padding: 0px;
-        height: 40px;
-    }
-
-    .forgot {
-        display: block;
-        text-align: right;
-        font-size: 13px;
-        margin-bottom: 10px;
-    }
-
-    .signup {
-        text-align: center;
-        font-size: 14px;
-    }
-}
-
 
 /* Footer */
 body {
@@ -484,7 +444,6 @@ body {
     backdrop-filter: blur(12px);
     color: #fff;
     padding: 10px 0;
-    margin-top: 10px;
 }
 
 /* Container */

@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login page</title>
-    <link rel="stylesheet" href="../css/login.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login page</title>
+  <link rel="stylesheet" href="../css/login.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
-   <div class="main-container" id="mainNav">
+  <div class="main-container" id="mainNav">
     <input type="checkbox" id="nav-toggle">
     <img src="../images/main-logo-icon.png" class="main-logo-icon" alt="HomeMade Hub" />
     <label for="nav-toggle" class="hamburger">
@@ -48,31 +51,42 @@
       </div>
     </div>
   </div>
-    <div class="page-wrapper">
-            <div class="container">
-                <div class="login-box">
-                    <h2 class="hading">Log In To Your Account</h2>
-                    <p class="sub-text">
-                        Check your order status, update your billing info, and review past purchases.
-                    </p>
-                    <label>User Name </label>
-                    <input type="text"  required>
-                    <label>Email </label>
-                    <input type="email" required>
-                    <label>Password </label>
-                    <div class="password-field">
-                        <input type="password" required>
-                    </div>
-                    <a href="./signup.html" class="forgot">Forgot Password</a>
-                    <button class="button">LOG IN</button>
-                    <p class="signup">Don't have an account? <a href="../pages/singup.html">Sign Up</a></p>
-                </div>
-                <div class="right-side">
-                    <img src="../images/masala-img.jpg" class="right-side img">
-                </div>
-            </div>
+  <div class="page-wrapper">
+    <div class="container">
+      <div class="login-box">
+        <h2 class="hading">Log In To Your Account</h2>
+        <p class="sub-text">
+          Check your order status, update your billing info, and review past purchases.
+        </p>
+        <div class="form-group">
+          <label>USER NAME</label>
+          <div class="input-box">
+            <input type="text" required>
+          </div>
         </div>
-<footer class="footer">
+        <div class="form-group">
+          <label>EMAIL ADDRESS</label>
+          <div class="input-box">
+            <input type="email" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>PASSWORD</label>
+          <div class="input-box">
+            <input type="password" required>
+          </div>
+        </div>
+
+        <a href="../pages/sign-up.html" class="forgot">Forgot Password</a>
+        <a href="../pages/login.html"><button class="button">LOG IN</button></a>
+        <p class="signup">Don't have an account? <a href="../pages/sign-up.html">Sign Up</a></p>
+      </div>
+      <div class="right-side">
+        <img src="../images/methi-khakra.jpg" class="right-side img ">
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
 
     <div class="footer-container">
 
@@ -152,5 +166,5 @@
     </div>
   </footer>
 </body>
+
 </html>
-        
