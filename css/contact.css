@@ -209,6 +209,15 @@ textarea { min-height: 100px; resize: vertical; }
 
 .item-row input[type="number"] { width: 56px; padding: 4px 6px; font-size: 12px; }
 
+.contact-link-1{
+  color: #000;
+  font-size: small;
+}
+
+.map{
+  text-decoration: none;
+}
+
 /* ── TERMS ── */
 .terms-row {
   display: flex;
@@ -219,6 +228,15 @@ textarea { min-height: 100px; resize: vertical; }
   cursor: pointer;
 }
 
+.terms-row input[type="checkbox"] {
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.tag-line-1{
+  display: inline-block;
+  line-height: 1.4;
+}
 /* ── BUTTON ── */
 .btn-primary {
   width: 100%;
@@ -239,6 +257,23 @@ textarea { min-height: 100px; resize: vertical; }
   box-shadow: 0 4px 14px rgba(113,18,18,0.35);
 }
 
+
+.button {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    background: rgb(113, 18, 18);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.button:hover {
+    background: #4c531c;
+}
 /* ── LOCATION ── */
 .location-wrapper {
   background: #d6c0b3;
@@ -294,8 +329,13 @@ textarea { min-height: 100px; resize: vertical; }
   text-align: center;
   font-size: 12px;
   cursor: pointer;
-  background: #fff;
+  background: #ffffff;
   transition: 0.2s;
+}
+
+.msg-type-btn:hover{
+  background-color: #faf6f6;
+  border: 1px solid rgb(152, 38, 38);
 }
 
 .msg-type-btn.active { border-color: #711212; background: #fff0f0; color: #711212; }

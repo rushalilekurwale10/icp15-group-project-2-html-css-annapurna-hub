@@ -1,146 +1,154 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Sign Up</title>
-  <link rel="stylesheet" href="../css/sign-up.css">
-  <link rel="stylesheet" href="../css/navbar.css">
-   
-
-  <!-- Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-</head>
-
-<body>
+<!doctype html>
+<html>
+  <head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../css/sign-up.css" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700;900&display=swap"
+      rel="stylesheet"/>
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
     <div class="main-container" id="mainNav">
+      <img
+        src="../images/main-logo-icon.png"
+        class="main-logo-icon"
+        alt="HomeMade Hub"
+      />
 
-    <img src="../images/main-logo-icon.png" class="main-logo-icon" alt="HomeMade Hub" />
+      <label for="nav-toggle" class="hamburger">
+        <span></span><span></span><span></span>
+      </label>
 
-    <label for="nav-toggle" class="hamburger">
-      <span></span><span></span><span></span>
-    </label>
-
-    <div class="nav-menu" id="navMenu">
-      <a href="../index.html" class="menu active">Home</a>
-      <a href="../pages/product.html" class="menu">Products</a>
-      <a href="../pages/about.html" class="menu">About</a>
-      <a href="../pages/contact.html" class="menu">Contact</a>
-      <a href="../pages/review.html" class="menu">Review</a>
-      <a href="../pages/bestcellar.html" class="menu">Bestsellers</a>
-    </div>
-
-    <div class="nav-icons">
-      <div class="nav-menu">
-        <a href="../pages/login.html" class="menu">Login</a>
-        <a href="../pages/sign-up.html" class="menu">Sign up</a>
+      <div class="nav-menu" id="navMenu">
+        <a href="../index.html" class="menu active">Home</a>
+        <a href="../pages/product.html" class="menu">Products</a>
+        <a href="../pages/about.html" class="menu">About</a>
+        <a href="../pages/contact.html" class="menu">Contact</a>
+        <a href="../pages/review.html" class="menu">Review</a>
+        <a href="../pages/bestcellar.html" class="menu">Bestsellers</a>
       </div>
 
-      <!-- Search -->
-      <div class="search-wrapper">
-        <div class="search-icon">
-          <img src="../images/search-icon.svg" height="32px" style="margin-top:4px;" alt="Search" />
+      <div class="nav-icons">
+        <div class="nav-menu">
+          <a href="../pages/login.html" class="menu">Login</a>
+          <a href="../pages/sign-up.html" class="menu">Sign up</a>
         </div>
-        <div class="search-dropdown">
-          <input type="text" placeholder="Search products..." class="search-input" />
-          <div class="search-options">
-            <a href="../pages/pickles.html">Pickles</a>
-            <a href="../pages/product.html">Chutneys</a>
-            <a href="../pages/product.html">Papad</a>
-            <a href="../pages/product.html">Snacks</a>
-            <a href="../pages/product.html">Juice Powders</a>
-            <a href="../pages/product.html">Khakhra</a>
-            <a href="../pages/product.html">Masala</a>
-            <a href="../pages/product.html">Ready Mix</a>
-            <a href="../pages/product.html">Ghee</a>
+
+        <!-- Search -->
+        <div class="search-wrapper">
+          <div class="search-icon">
+            <img
+              src="../images/search-icon.svg"
+              height="32px"
+              style="margin-top: 4px"
+              alt="Search"
+            />
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="split-wrapper">
-
-    <!-- Left Panel -->
-    <div class="left-panel">
-
-      <div class="left-panel-logo">
-        <img src="../images/main-logo-icon.png" alt="HomeMade Hub">
-      </div>
-
-      <h2>Welcome to<br><span>HomeMade Hub</span></h2>
-      <div class="left-divider"></div>
-
-      <p>Authentic flavors crafted with care.</p>
-
-      <div class="left-features">
-        <div class="left-feature-item">
-          <div class="left-feature-icon"><img src="../images/homemade-icon.png" height="30px"></div>
-          <span>Pickles, masalas &amp; homemade snacks</span>
-        </div>
-        <div class="left-feature-item">
-          <div class="left-feature-icon"><img src="../images/secure-icon.png" height="30px"></div>
-          <span>Secure account &amp; easy checkout</span>
-        </div>
-        <div class="left-feature-item">
-          <div class="left-feature-icon"><img src="../images/sign-up-icon.png" height="30px"></div>
-          <span>Free to join — no hidden charges</span>
-        </div>
-      </div>
-
-    </div>
-
-    <!-- Right Panel -->
-    <div class="right-panel">
-
-      <div class="signup-container">
-
-        <div class="icon-box">
-          <img src="../images/acc-icon-sign-up.png" height="100">
-        </div>
-
-        <h2>Create Account</h2>
-        <p class="sub-text">Join us today — it's completely free</p>
-
-        <form>
-
-          <div class="form-group">
-            <label>FULL NAME</label>
-            <div class="input-box">
-              <input type="text" required>
+          <div class="search-dropdown">
+            <input
+              type="text"
+              placeholder="Search products..."
+              class="search-input"
+            />
+            <div class="search-options">
+              <a href="../pages/pickles.html">Pickles</a>
+              <a href="../pages/product.html">Chutneys</a>
+              <a href="../pages/product.html">Papad</a>
+              <a href="../pages/product.html">Snacks</a>
+              <a href="../pages/product.html">Juice Powders</a>
+              <a href="../pages/product.html">Khakhra</a>
+              <a href="../pages/product.html">Masala</a>
+              <a href="../pages/product.html">Ready Mix</a>
+              <a href="../pages/product.html">Ghee</a>
             </div>
           </div>
-
-          <div class="form-group">
-            <label>EMAIL ADDRESS</label>
-            <div class="input-box">
-              <input type="email" required>
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label>PASSWORD</label>
-            <div class="input-box">
-              <input type="password" required>
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label>CONFIRM PASSWORD</label>
-            <div class="input-box">
-              <input type="password" required>
-            </div>
-          </div>
-
-          <button type="submit">Create My Account →</button>
-
-        </form>
-
+        </div>
       </div>
-
     </div>
 
-  </div>
-  <!-- Footer section -->
+    <div class="split-wrapper">
+      <!-- Left Panel -->
+      <div class="left-panel">
+        <div class="left-panel-logo">
+          <img src="../images/main-logo-icon.png" alt="HomeMade Hub" />
+        </div>
+
+        <h2>Welcome to<br /><span>HomeMade Hub</span></h2>
+        <div class="left-divider"></div>
+
+        <p>Authentic flavors crafted with care.</p>
+
+        <div class="left-features">
+          <div class="left-feature-item">
+            <div class="left-feature-icon">
+              <img src="../images/homemade-icon.png" height="30px" />
+            </div>
+            <span>Pickles, masalas &amp; homemade snacks</span>
+          </div>
+          <div class="left-feature-item">
+            <div class="left-feature-icon">
+              <img src="../images/secure-icon.png" height="30px" />
+            </div>
+            <span>Secure account &amp; easy checkout</span>
+          </div>
+          <div class="left-feature-item">
+            <div class="left-feature-icon">
+              <img src="../images/sign-up-icon.png" height="30px" />
+            </div>
+            <span>Free to join — no hidden charges</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Panel -->
+      <div class="right-panel">
+        <div class="signup-container">
+          <div class="icon-box">
+            <img src="../images/acc-icon-sign-up.png" height="100" />
+          </div>
+
+          <span class="title">Create Account</span>
+          <p class="sub-text">Join us today — it's completely free</p>
+
+          <form>
+            <div class="form-group">
+              <label>FULL NAME</label>
+              <div class="input-box">
+                <input type="text" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>EMAIL ADDRESS</label>
+              <div class="input-box">
+                <input type="email" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>PASSWORD</label>
+              <div class="input-box">
+                <input type="password" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>CONFIRM PASSWORD</label>
+              <div class="input-box">
+                <input type="password" required />
+              </div>
+            </div>
+              <button  class="button" type="submit">Create My Account →</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Footer section -->
     <footer class="footer">
       <div class="footer-container">
         <!-- About -->
